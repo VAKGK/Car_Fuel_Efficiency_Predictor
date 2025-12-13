@@ -90,26 +90,26 @@ st.markdown("<h5 style='text-align:center; color:#6b7280; margin-bottom:50px;'>1
 col1, col2 = st.columns(2)
 
 with col1:
-    st.markdown("#### Engine & Power")
-    cylinders = st.number_input("Number of Cylinders", 3, 8, 4, step=1,
+    st.markdown("#### Engine & Power 🔥")
+    cylinders = st.number_input("🔢 Number of Cylinders", 3, 8, 4, step=1,
                                 help="Most cars have 4. Muscle cars & trucks have 6 or 8.")
-    displacement = st.number_input("Engine Displacement (cu in)", 68.0, 455.0, 200.0, step=10.0,
+    displacement = st.number_input("🛢️ Engine Displacement (cu in)", 68.0, 455.0, 200.0, step=10.0,
                                    help="Small car: 70–150 | Medium: 150–300 | Large: 300–455")
-    horsepower = st.number_input("Horsepower (HP)", 40, 250, 120, step=5,
+    horsepower = st.number_input("🐎 Horsepower (HP)", 40, 250, 120, step=5,
                                  help="Normal: 100–160 HP | Sporty/Muscle: 180–250+ HP")
 
 with col2:
-    st.markdown("#### Weight & Performance")
-    weight = st.number_input("Car Weight (lbs)", 1500, 6000, 3000, step=100,
+    st.markdown("#### Weight & Performance 💪")
+    weight = st.number_input("⚖️ Car Weight (lbs)", 1500, 6000, 3000, step=100,
                              help="Light: 2000–2800 | Average: 3000–4000 | Heavy: 4500+")
-    acceleration = st.number_input("0–60 mph (seconds)", 8.0, 30.0, 15.0, step=0.5,
+    acceleration = st.number_input("🏁 0–60 mph (seconds)", 8.0, 30.0, 15.0, step=0.5,
                                    help="Fast: 8–12 sec | Normal: 13–18 sec | Slow: 20+ sec")
-    origin = st.selectbox("Country of Origin", [1, 2, 3],
+    origin = st.selectbox("🌍 Country of Origin", [1, 2, 3],
                           format_func=lambda x: {1: "USA", 2: "Europe", 3: "Japan"}[x],
                           index=2,
                           help="Japanese cars were usually the most fuel-efficient in the 70s–80s!")
 
-model_year = st.slider("Model Year", 70, 82, 78, help="70 = 1970, 82 = 1982. Newer = slightly better MPG")
+model_year = st.slider("📅 Model Year", 70, 82, 78, help="70 = 1970, 82 = 1982. Newer = slightly better MPG")
 
 # ==================== EXAMPLES ====================
 st.info("""
