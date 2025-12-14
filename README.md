@@ -1,12 +1,11 @@
-** Car Mileage Prediction**
+**Car Mileage Prediction**
 
 
-📌 Overview
+📌 **Overview**
 
 This project predicts a car’s mileage (MPG) using machine learning techniques in Python. It includes data cleaning, feature scaling, model training, evaluation, and saving the trained model as .joblib files.
 
-🔧 Technologies Used
-
+🔧 **Technologies Used**
 Python
 
 NumPy, Pandas
@@ -19,7 +18,7 @@ Joblib
 
 Jupyter Notebook / Pycharm
 
-📊 Model Performance
+📊 **Model Performance**
 
 R² Score: 0.85
 
@@ -27,7 +26,7 @@ MAE: 2.25
 
 MSE: 8.20
 
-🧠 Model Pipeline
+🧠 **Model Pipeline**
 
 Data Cleaning
 
@@ -43,7 +42,7 @@ Evaluation
 
 Saving Model
 
-📁 Project Files
+📁 **Project Files**
 
 car_mileage_model.joblib – Trained model
 
