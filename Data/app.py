@@ -305,9 +305,10 @@ components.html(
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
         </a>
 
-        <a href="mailto:vadlamudiarunkumar3@gmail.com">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vadlamudiarunkumar3@gmail.com" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png">
-        </a>
+        </a> 
+
 
         <a href="https://codebasics.io/portfolio/VADLAMUDI-ARUN-KUMAR" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/128/10856/10856864.png">
