@@ -310,7 +310,7 @@ components.html(
         </a> 
 
 
-        <a href="https://codebasics.io/portfolio/VADLAMUDI-ARUN-KUMAR" target="_blank">
+        <a href="https://vadlamudiarunkumar.netlify.app" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/128/10856/10856864.png">
         </a>
 
@@ -354,3 +354,4 @@ st.markdown("""
     <span>Built with passion using Streamlit • Machine Learning (Linear Regression Model) • Classic Auto MPG Dataset</span>
 </div>
 """, unsafe_allow_html=True)
+
