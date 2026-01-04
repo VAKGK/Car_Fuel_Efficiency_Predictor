@@ -1,6 +1,6 @@
 **Car Mileage Prediction**
 
-This project predicts a car’s mileage (MPG) using machine learning techniques in Python. It includes data cleaning, feature scaling, model training, evaluation, and saving the trained model as .joblib files.
+Built a machine learning regression model to predict vehicle fuel efficiency (MPG) using automotive specifications. The project includes data preprocessing, feature analysis, model evaluation, and deployment of the final model.
 
 🔧 **Technologies Used**
 
