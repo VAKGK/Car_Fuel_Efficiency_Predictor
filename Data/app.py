@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 # ==================== PAGE CONFIG ====================
-st.set_page_config(page_title="Car MPG Predictor", page_icon="🚗", layout="wide")
+st.set_page_config(page_title="Car Fuel Efficiency Predictor", page_icon="🚗", layout="wide")
 
 # ==================== RICH, WARM & COLORFUL DESIGN ====================
 st.markdown("""
@@ -354,4 +354,5 @@ st.markdown("""
     <span>Built with passion using Streamlit • Machine Learning (Linear Regression Model) • Classic Auto MPG Dataset</span>
 </div>
 """, unsafe_allow_html=True)
+
 
